@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple JavaScript Example</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <!-- Navigation menu content -->
+    </nav>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>This is a simple HTML and CSS website created for demonstration purposes.</p>
+        </section>
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>Content Writing</li>
+            </ul>
+        </section>
+        <section>
+            <h2>JavaScript Example</h2>
+            <p>Click the button below to display a message.</p>
+            <button id="myButton">Click Me</button>
+            <p id="outputMessage"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Simple Website. All rights reserved.</p>
+    </footer>
+    
+    <!-- JavaScript code -->
+    <script>
+        // Get the button and output message element
+        const button = document.getElementById("myButton");
+        const outputMessage = document.getElementById("outputMessage");
+
+        // Add a click event listener to the button
+        button.addEventListener("click", function() {
+            outputMessage.textContent = "Hello, World!";
+        });
+    </script>
+</body>
+</html>
