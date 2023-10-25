@@ -1,30 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>#VRAJ21</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    /* Style for the body with background image */
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('/1uBpG3o.jpeg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: 'YourAestheticFont', Arial, sans-serif; /* Specify the custom font */
+    }
+
+    @font-face {
+      font-family: 'YourAestheticFont'; /* Define your font's name */
+      src: url('your-font.woff2') format('woff2'); /* Replace 'your-font.woff2' with your font file path */
+    }
+
+    /* Style for the navigation bar */
+    .navbar {
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.7); /* Background color with some transparency */
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 6px;
+      text-decoration: none;
+    }
+
+    /* Style for the right-aligned link */
+    .navbar li {
+      float: right;
+    }
+
+    .navbar li a.active {
+      background-color: rgba(0, 0, 0, 0.247);
+    }
+
+    /* Style for the text at the bottom */
+    .bottom-text {
+      text-align: center;
+      color: #333;
+      font-size: 32px;
+      padding: 250px 0;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>I'm new in github :/</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy;made by vijayaraj</p>
-    </footer>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <li><a class="active" href="#about">About</a></li>
+</div>
+
+<div class="bottom-text">
+  # MADE BY SOMEONE WHO KNOWS NOTHING ABOUT HTML / CSS #
+</div>
+
 </body>
 </html>
